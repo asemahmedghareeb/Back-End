@@ -1,0 +1,24 @@
+//to initialize npm in the project => npm init -y
+
+//to install package globally => npm install [package name] -g == npm -i [package name] -g 
+
+//to  install package in the project => npm install [package name]
+
+
+//when clonning repo the node_moules file will not be included and will not run to solve this we should write =>npm install  this command will search and install the needed modules and all dependencies
+
+
+//to add nodmon to the project dependencies => npm i nodemon -D
+
+
+//to run nodemonnpm=>npm run dev 
+
+^ before the version mean that only update the minor updates =>"nodemon": "^2.0.20" 
+
+
+~ means only install patch updates =>"nodemon": "~2.0.20"
+
+* means update install any update =>"nodemon": "*"
+
+
+to  uninstall package => npm (uninstall or un or rm) [packagename]
